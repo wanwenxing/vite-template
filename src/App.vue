@@ -1,10 +1,10 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref } from 'vue';
 const a = ref(0);
 console.log(a);
 // import HelloWorld from './components/HelloWorld.vue'
 const showMsg = () => {
-  ElMessage.error("你好");
+  ElMessage.error('你好');
 };
 </script>
 
