@@ -12,4 +12,6 @@
 3.husky中的pre-commit+commit-msg两个钩子
 4.commitlint的安装，https://commitlint.js.org/#/
 5.安装lint-staged ,https://www.npmjs.com/package/lint-staged
+6.添加commitizen工具，设置commit-msg可视化操作。https://www.npmjs.com/package/commitizen
+7.为可视化添加图标
 ```
