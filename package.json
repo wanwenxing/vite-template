@@ -11,7 +11,7 @@
     "prettier": "prettier  --write .",
     "eslint": "eslint \"src/**/*.{ts,js,vue}\" \"src/main.ts\"",
     "prepare": "husky install",
-    "commit": "git add . &&  cz-customizable"
+    "commit": "cz"
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
@@ -28,9 +28,7 @@
     "@typescript-eslint/eslint-plugin": "^6.13.2",
     "@typescript-eslint/parser": "^6.13.2",
     "@vitejs/plugin-vue": "^4.5.0",
-    "commitlint-config-cz": "^0.13.3",
     "cz-conventional-changelog": "^3.3.0",
-    "cz-customizable": "^7.0.0",
     "eslint": "^8.55.0",
     "eslint-plugin-vue": "^9.19.2",
     "husky": "^8.0.3",
@@ -52,12 +50,7 @@
   },
   "config": {
     "commitizen": {
-      "commitizen": {
-        "path": "./node_modules/cz-customizable"
-      },
-      "cz-customizable": {
-        "config": ".cz-config.cjs"
-      }
+      "path": "./node_modules/cz-conventional-changelog"
     }
   }
 }
