@@ -9,4 +9,7 @@
 ```
 1.安装prettier+eslint
 2.解决prettier和eslint的冲突
+3.husky中的pre-commit+commit-msg两个钩子
+4.commitlint的安装，https://commitlint.js.org/#/
+5.安装lint-staged ,https://www.npmjs.com/package/lint-staged
 ```
