@@ -16,5 +16,10 @@
     "sourceType": "module"
   },
   "plugins": ["@typescript-eslint", "vue"],
-  "rules": {}
+  "rules": {
+    "no-debugger": ["error"],
+    "vue/multi-word-component-names": "off",
+    "semi": "off",
+    "no-console": "error"
+  }
 }
