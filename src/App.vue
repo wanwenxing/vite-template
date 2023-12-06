@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { ref } from 'vue';
 const a = ref(0);
-console.log(a);
-// import HelloWorld from './components/HelloWorld.vue'
+
 const showMsg = () => {
+  // eslint-disable-next-line no-undef
   ElMessage.error('你好');
 };
 </script>

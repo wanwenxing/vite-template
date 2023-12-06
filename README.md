@@ -5,3 +5,8 @@
 
  2.vite-plugin-pages 实现菜单路由
 ```
+# 代码规范
+```
+1.安装prettier+eslint
+2.解决prettier和eslint的冲突
+```

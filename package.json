@@ -8,11 +8,13 @@
     "build": "vue-tsc && vite build",
     "preview": "vite preview",
     "prettier:src": "prettier  --write \"src/**/*.{ts,js,vue}\"",
-    "prettier": "prettier  --write ."
+    "prettier": "prettier  --write .",
+    "eslint": "eslint \"src/**/*.{ts,js,vue}\" \"src/main.ts\""
   },
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "element-plus": "^2.4.3",
+    "eslint-config-prettier": "^9.1.0",
     "unplugin-element-plus": "^0.8.0",
     "unplugin-icons": "^0.18.1",
     "vite-plugin-pages": "^0.32.0",
@@ -21,7 +23,11 @@
   },
   "devDependencies": {
     "@types/node": "^20.10.3",
+    "@typescript-eslint/eslint-plugin": "^6.13.2",
+    "@typescript-eslint/parser": "^6.13.2",
     "@vitejs/plugin-vue": "^4.5.0",
+    "eslint": "^8.55.0",
+    "eslint-plugin-vue": "^9.19.2",
     "prettier": "3.1.0",
     "sass": "^1.69.5",
     "typescript": "^5.2.2",
